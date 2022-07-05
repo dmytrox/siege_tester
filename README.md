@@ -9,7 +9,7 @@ npm run start:dev
 
 ```
 
-To fill db with dummy data make request to this endpoint http://localhost:3000/create/many
+To fill db with dummy data make request to this endpoint http://localhost:3000/records/create/many
 
 ### Tests
 
