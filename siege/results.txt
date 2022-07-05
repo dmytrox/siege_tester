@@ -1,0 +1,118 @@
+siege -d1 -b -t60s -c10 -f ./siege/siege_cache.txt && siege -d1 -b -t60s -c25 -f ./siege/siege_cache.txt && siege -d1 -b -t60s -c50 -f ./siege/siege_cache.txt && siege -d1 -b -t60s -c100 -f ./siege/siege_cache.txt
+
+#10
+{	"transactions":			         329,
+	"availability":			      100.00,
+	"elapsed_time":			       59.10,
+	"data_transferred":		        4.83,
+	"response_time":		        1.78,
+	"transaction_rate":		        5.57,
+	"throughput":			        0.08,
+	"concurrency":			        9.91,
+	"successful_transactions":	         329,
+	"failed_transactions":		           0,
+	"longest_transaction":		       21.63,
+	"shortest_transaction":		        0.98
+}
+#25
+{	"transactions":			         449,
+	"availability":			      100.00,
+	"elapsed_time":			       59.98,
+	"data_transferred":		        6.59,
+	"response_time":		        3.15,
+	"transaction_rate":		        7.49,
+	"throughput":			        0.11,
+	"concurrency":			       23.55,
+	"successful_transactions":	         449,
+	"failed_transactions":		           0,
+	"longest_transaction":		       12.61,
+	"shortest_transaction":		        1.00
+}
+#50
+{	"transactions":			         353,
+	"availability":			      100.00,
+	"elapsed_time":			       59.98,
+	"data_transferred":		        5.18,
+	"response_time":		        6.97,
+	"transaction_rate":		        5.89,
+	"throughput":			        0.09,
+	"concurrency":			       41.02,
+	"successful_transactions":	         353,
+	"failed_transactions":		           0,
+	"longest_transaction":		       16.95,
+	"shortest_transaction":		        5.06
+}
+#100
+{	"transactions":			         357,
+	"availability":			      100.00,
+	"elapsed_time":			       59.99,
+	"data_transferred":		        5.24,
+	"response_time":		       13.79,
+	"transaction_rate":		        5.95,
+	"throughput":			        0.09,
+	"concurrency":			       82.09,
+	"successful_transactions":	         357,
+	"failed_transactions":		           0,
+	"longest_transaction":		       27.20,
+	"shortest_transaction":		       10.14
+}
+
+
+siege -d1 -b -t60s -c10 -f ./siege/siege_xfetch.txt && siege -d1 -b -t60s -c25 -f ./siege/siege_xfetch.txt && siege -d1 -b -t60s -c50 -f ./siege/siege_xfetch.txt && siege -d1 -b -t60s -c100 -f ./siege/siege_xfetch.txt
+
+#10
+{	"transactions":			         418,
+	"availability":			      100.00,
+	"elapsed_time":			       59.65,
+	"data_transferred":		        6.14,
+	"response_time":		        1.41,
+	"transaction_rate":		        7.01,
+	"throughput":			        0.10,
+	"concurrency":			        9.91,
+	"successful_transactions":	         418,
+	"failed_transactions":		           0,
+	"longest_transaction":		        5.12,
+	"shortest_transaction":		        0.98
+}
+#25
+{	"transactions":			         343,
+	"availability":			      100.00,
+	"elapsed_time":			       59.98,
+	"data_transferred":		        5.04,
+	"response_time":		        3.17,
+	"transaction_rate":		        5.72,
+	"throughput":			        0.08,
+	"concurrency":			       23.87,
+	"successful_transactions":	         343,
+	"failed_transactions":		           0,
+	"longest_transaction":		        9.42,
+	"shortest_transaction":		        1.09
+}
+#50
+{	"transactions":			         336,
+	"availability":			      100.00,
+	"elapsed_time":			       59.99,
+	"data_transferred":		        4.93,
+	"response_time":		        5.89,
+	"transaction_rate":		        5.60,
+	"throughput":			        0.08,
+	"concurrency":			       44.21,
+	"successful_transactions":	         336,
+	"failed_transactions":		           0,
+	"longest_transaction":		       21.52,
+	"shortest_transaction":		        3.86
+}
+#100
+{	"transactions":			          234,
+	"availability":			      100.00,
+	"elapsed_time":			       59.99,
+	"data_transferred":		        1.26,
+	"response_time":		       8.74,
+	"transaction_rate":		        1.43,
+	"throughput":			        0.02,
+	"concurrency":			       46.94,
+	"successful_transactions":	          234,
+	"failed_transactions":		           0,
+	"longest_transaction":		       30.71,
+	"shortest_transaction":		       13.70
+}
